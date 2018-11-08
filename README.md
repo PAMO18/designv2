@@ -1,4 +1,4 @@
-Design V2 course at Blekinge Teknista Högskola
+Design v2 course at Blekinge Tekniska Högskola
 ===========================================
 
 My first repot!
