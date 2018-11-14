@@ -434,7 +434,7 @@ p {
     font-size: 20px;
 }
 
-article,
+.region-main,
 .block {
     margin: 0 auto;
     max-width: 1000px;
@@ -445,7 +445,7 @@ article,
     clear: both;
 }
 
-article {
+.article {
     overflow: auto;
     clear: both;
 }
@@ -517,4 +517,21 @@ a {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 5px;
+}
+
+.inner-wrap {
+    position: relative;
+}
+
+.region-main.has-sidebar-right {
+    max-width: 650px;
+    margin-left: 50px;
+}
+
+.wrap-sidebar.region-sidebar-right {
+    margin-right: 50px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 300px;
 }

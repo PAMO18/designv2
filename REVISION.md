@@ -12,3 +12,7 @@ v1.0.1 (2018-11-09)
 v1.0.2 (2018-11-09)
 -------------------
 * Added Revision history and license
+
+v1.0.3 (2018-11-09)
+-------------------
+* Added side menu to "om" page
