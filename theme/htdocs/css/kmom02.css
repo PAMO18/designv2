@@ -4786,6 +4786,10 @@ table {
   display: inline;
   float: left;
   width: 30%;
+  text-align: center;
+}
+.footer-column a {
+  color: white;
 }
 .footer-column:not(:last-child) {
   border-right: 2px solid black;
