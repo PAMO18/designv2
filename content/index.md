@@ -2,7 +2,7 @@
 title: "Paul Moreland's me-sida"
 views:
     byline:
-        region: main
+        region: after-main
         template: anax/v2/block/default
         sort: 2
         data:
@@ -12,8 +12,6 @@ views:
 ---
 Min me-sida i kursen design
 =========================
-
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
 [FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig och min familj, jag är i mitten:)"]
 

@@ -1,0 +1,82 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 962px) {
+    .region-main {
+        padding: 0;
+        &.has-sidebar-left {
+            float: none;
+            width: 100%;
+            margin: 0;
+        }
+        &.has-sidebar-right {
+            float: none;
+            width: 100%;
+            margin: 0;
+        }
+
+        &.has-sidebar-left.has-sidebar-right {
+            width: 100%;
+        }
+    }
+
+    .region-sidebar-left,
+    .region-sidebar-right {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .region-sidebar-left.has-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-right.has-sidebar-left {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .rm-navbar-max {
+        display: block;
+    }
+
+    .rm-small {
+        display: block;
+    }
+
+    .rm-desktop {
+        display: none;
+    }
+
+    .byline {
+        margin-top: 0;
+    }
+
+    select[name="stylechooser"] {
+        width: 100%;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .figure.right img {
+        width: 65%;
+    }
+
+    .figure.right,
+    .figure.om-image {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}

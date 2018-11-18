@@ -1,0 +1,253 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+@bgColourPage: #e6f2f3;
+@bgColourMain: #165c87;
+@navColour: white;
+@bgImage: linear-gradient(to bottom, #165c87 , black);
+@bgImageLeft: linear-gradient(to right, #165c87 , #e6f2f3);
+
+/**
+ * General layout
+ */
+
+ .rm-navbar-max {
+     display: none;
+ }
+
+ .rm-desktop ul {
+     background-image: @bgImage;
+     color: @navColour;
+ }
+
+ .rm-navbar-max > ul {
+     background-image: @bgImage;
+     color: @navColour;
+ }
+
+.wrap-all {
+    background-color: @bgColourPage;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.site-logo {
+    display: none;
+}
+
+.region-header {
+    position: relative;
+}
+
+.region-header-col-1 a {
+    font-size: 3em;
+    color: @bgColourMain;
+}
+
+.region-header-col-2 {
+    background-image: @bgImage;
+    color: @navColour;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+ }
+
+ .region-header-col-2 a {
+     font-size: 1.6em;
+     color: black;
+     padding: 0.6em;
+ }
+
+.region-header-col-3 {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    font-size: 2em;
+}
+
+.figure.right {
+    float: right;
+    text-align: center;
+    margin: 0;
+}
+
+.figure.right p {
+    margin-top: 0;
+    font-style: italic;
+}
+
+.figure.byline {
+    float: left;
+    margin-left: 0;
+}
+
+.figure img {
+    border-radius: 10px;
+}
+
+.om-image {
+    float: right;
+    margin-left: 0;
+    margin-top: -2em;
+    margin-bottom: 0;
+}
+
+.om-image p {
+    margin: 0;
+    text-align: center;
+}
+
+.outer-wrap-main,
+.outer-wrap-after-main {
+    padding: 1em;
+}
+
+.region-main {
+    overflow: auto;
+
+    &.has-sidebar-left {
+        float: right;
+        width: 78%;
+        margin-top: 1em;
+    }
+
+    &.has-sidebar-right {
+        float: left;
+        width: 75%;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 56%;
+        margin-top: 0;
+        padding-top: 0;
+        margin-left: 1em;
+        margin-right: 1em;
+        text-align: center;
+    }
+}
+
+table {
+    margin: 0 auto;
+}
+
+.region-sidebar-left {
+    float: left;
+    width: 20%;
+}
+
+.region-sidebar-right {
+    float: right;
+    width: 25%;
+    margin-top: 1em;
+}
+
+.region-sidebar-left.has-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-right.has-sidebar-left {
+    width: 20%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.outer-wrap-breadcrumb {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.region-breadcrumb ul {
+    position: absolute;
+    left: 1em;
+}
+
+.region-breadcrumb li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.region-breadcrumb li:after {
+    font-family: "Font Awesome 5 Free";
+    content: " \f101";
+}
+
+.region-breadcrumb a {
+    color: black;
+}
+
+.region-sidebar-left a,
+.region-sidebar-right a,
+.region-main a {
+    color: @bgColourMain;
+}
+
+.article {
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.region-after-main {
+    clear: both;
+}
+
+.byline {
+    margin-top: -1em;
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.site-footer {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    clear: both;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+.region-footer {
+    background-image: @bgImage;
+    color: white;
+    clear: both;
+    padding-bottom: 1px;
+}
+
+.footer-column {
+    padding: 0 8px;
+    display: inline;
+    float: left;
+    width: 30%;
+}
+
+.footer-column:not(:last-child) {
+    border-right: 2px solid black;
+}
+
+.breadcrumb-list {
+    margin-left: 50px;
+}
+
+.breadcrumb-list a {
+    font-size: 18px;
+}
+
+.toc a {
+    font-size: 18px;
+}
+
+.next {
+    float: right;
+}
+
+.previous {
+    float: left;
+}
+
+.next-previous {
+    overflow: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}

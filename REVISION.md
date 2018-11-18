@@ -16,3 +16,13 @@ v1.0.2 (2018-11-09)
 v1.0.3 (2018-11-09)
 -------------------
 * Added side menu to "om" page
+
+v2.0.0 (2018-11-18)
+-------------------
+* Kmom02
+* Uses LESS
+* CSS spit into base, layout and responsive modules
+* New style
+* Responsive
+* Two and three sidebar layout support
+* Report for kmom02
