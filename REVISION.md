@@ -26,3 +26,7 @@ v2.0.0 (2018-11-18)
 * Responsive
 * Two and three sidebar layout support
 * Report for kmom02
+
+v2.0.1 (2018-11-18)
+-------------------
+* Added Manchester, Instagram and LinkedIn footer links
