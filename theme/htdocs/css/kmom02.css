@@ -4663,16 +4663,16 @@ a:hover {
   right: 0;
   font-size: 2em;
 }
-.figure.right {
+.figure.family {
   float: right;
   text-align: center;
   margin: 0;
 }
-.figure.right p {
+.figure.family p {
   margin-top: 0;
   font-style: italic;
 }
-.figure.byline {
+.figure.Paul {
   float: left;
   margin-left: 0;
 }
@@ -4762,7 +4762,7 @@ table {
 .region-after-main {
   clear: both;
 }
-.byline {
+.Paul {
   margin-top: -1em;
   margin-left: 0;
   margin-right: 8px;
@@ -4782,16 +4782,16 @@ table {
   padding-bottom: 1px;
 }
 .footer-column {
-  padding: 0 8px;
   display: inline;
   float: left;
-  width: 30%;
+  width: 33.33%;
   text-align: center;
 }
 .footer-column a {
   color: white;
 }
-.footer-column:not(:last-child) {
+.footer-column-1,
+.footer-column-2 {
   border-right: 2px solid black;
 }
 .breadcrumb-list {
@@ -4868,7 +4868,14 @@ table {
     width: 100%;
   }
   .footer-column {
+    float: none;
     width: 100%;
+    padding: 1em;
+  }
+  .footer-column-1,
+  .footer-column-2 {
+    border-right: none;
+    border-bottom: 1px solid black;
   }
   .figure.right img {
     width: 65%;

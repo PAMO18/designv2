@@ -1,0 +1,68 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 900px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+
+        &.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+    .region-sidebar-left,
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .rm-navbar-max {
+        display: block;
+    }
+
+    .rm-desktop {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .figure.family,
+    .figure.om-image {
+        float: none;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .figure.family img {
+        width: 60%;
+    }
+
+    select[name="stylechooser"] {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .footer-column-1,
+    .footer-column-2 {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+}

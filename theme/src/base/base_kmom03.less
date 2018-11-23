@@ -1,0 +1,82 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+/**-----------------------------------------/
+* Variables & Mixins
+*-----------------------------------------*/
+@bgColourPage: #e6f2f3;
+@bgColourLinks: #165c87;
+@bgColorHtml: #353535;
+@altColour: white;
+@bgImage: linear-gradient(to bottom, #165c87 , black);
+//@fontFamilyBody: serif;
+
+/**
+* Show the typographic grid
+*/
+.hgrid .inner-wrap {
+ @gridImage: "../img/magic-number-@{magicNumber}.png";
+ #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**-----------------------------------------/
+* Page style
+*-----------------------------------------*/
+// Page
+.wrap-all {
+background-color: @bgColourPage;
+}
+// Navbars
+.rm-default,
+.rm-default ul {
+     background-image: @bgImage;
+     color: @altColour;
+ }
+
+a {
+    color: @bgColourLinks;
+    text-decoration: none;
+}
+// Footer
+.outer-wrap-footer,
+.inner-wrap-footer {
+    background-image: @bgImage;
+    color: white;
+}
+
+/**-----------------------------------------/
+* Base
+*-----------------------------------------*/
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    // Activate the grid base font
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+img {
+    max-width: 100%;
+}
+
+figure img {
+    border-radius: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    margin: 0 auto;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+/**-----------------------------------------/
+ * End of base
+ *-----------------------------------------*/

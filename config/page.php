@@ -19,7 +19,7 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom02.css",
+                "css/kmom03.min.css",
                 //"css/kmom01.css",
             ],
             "javascripts" => [
@@ -45,7 +45,7 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "design",
-                "siteLogoTextIcon" => "image/theme/logo_40x40.jpg",
+                "siteLogoTextIcon" => "image/theme/logo_48x48.jpg",
                 "siteLogoTextIconAlt" => "Manchester Bee",
             ],
         ],

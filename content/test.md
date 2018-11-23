@@ -31,15 +31,11 @@ views:
 Test Sida
 =========================
 
-This is a **`<h2>`**
----------------------
+##This is a **`<h2>`**
 
 ###This is a **`<h3>`**
 
-+ Bullet 1.
-+ Bullet 2.
-+ Bullet 3.
-
+####This is a **`<h4>`**
 
 | Table header 1  | Table header 2 |
 |:---------------:|:--------------:|

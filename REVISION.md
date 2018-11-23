@@ -30,3 +30,12 @@ v2.0.0 (2018-11-18)
 v2.0.1 (2018-11-18)
 -------------------
 * Added Manchester, Instagram and LinkedIn footer links
+
+v3.0.0 (2018-11-23)
+-------------------
+* kmom03
+* Added a vertical grid and a typographic grid,
+* Grids are accessed by ?vgrid or ?hgrid at the end of the url.
+* Reorganised style sheet modules for grid usage.
+* Improved responsivity.
+* Report for kmom03
