@@ -60,6 +60,20 @@ return [
             ],
         ],
         [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporttexter från kursmomenten.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Färgschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Färgschema rapport för kmom04.",
+                    ],
+                ],
+            ],
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",
@@ -68,6 +82,11 @@ return [
             "text" => "Test Sida",
             "url" => "test",
             "title" => "Testing page",
+        ],
+        [
+            "text" => "Fun",
+            "url" => "fun",
+            "title" => "Fun",
         ],
         [
             "text" => "Styleväljare",

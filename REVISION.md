@@ -39,3 +39,15 @@ v3.0.0 (2018-11-23)
 * Reorganised style sheet modules for grid usage.
 * Improved responsivity.
 * Report for kmom03
+
+v4.0.0 (2018-11-30)
+-------------------
+* kmom04
+* Added fun page
+* Added rapport page
+* New style: Colorful
+* New style: Dark
+* New style: Minimalistic
+* Deafult style changed to: Dark
+* Report for analysis of website colour schemes
+* Report for kmom04

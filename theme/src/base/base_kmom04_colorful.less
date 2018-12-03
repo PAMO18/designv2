@@ -5,13 +5,13 @@
 /**-----------------------------------------/
 * Variables & Mixins
 *-----------------------------------------*/
-@bgColourPage: #e6f2f3;
-@bgColourLinks: #165c87;
-@bgColorHtml: #353535;
-@altColour: white;
-@bgImage: linear-gradient(to bottom, #165c87 , black);
-//@fontFamilyBody: serif;
-
+@html: #0a13ff;
+@page: linear-gradient(to bottom, #ffd93e , #e6f2f3);
+@headfoot: #0a13ff;
+@headfootText: white;
+@links: #267272;
+@weight: bold;
+@shadow: 1px 1px 4px black, 0 0 25px #e6f2f3, 0 0 10px #244356;
 /**
 * Show the typographic grid
 */
@@ -25,24 +25,28 @@
 *-----------------------------------------*/
 // Page
 .wrap-all {
-background-color: @bgColourPage;
+background-image: @page;
 }
 // Navbars
 .rm-default,
-.rm-default ul {
-     background-image: @bgImage;
-     color: @altColour;
+.rm-default ul,
+.rm-mobile.rm-mobile {
+     background-color: @headfoot;
+     color: @headfootText;
+     text-shadow: @shadow;
  }
 
 a {
-    color: @bgColourLinks;
+    color: @links;
     text-decoration: none;
+    font-weight: @weight;
 }
 // Footer
 .outer-wrap-footer,
 .inner-wrap-footer {
-    background-image: @bgImage;
-    color: white;
+    background-color: @headfoot;
+    color: @headfootText;
+    text-shadow: @shadow;
 }
 
 /**-----------------------------------------/
@@ -51,7 +55,7 @@ a {
 html {
     overflow-x: hidden;
     overflow-y: scroll;
-    background-color: @bgColorHtml;
+    background-color: @html;
 }
 
 body {
@@ -61,6 +65,7 @@ body {
 
 img {
     max-width: 100%;
+    box-shadow: @shadow;
 }
 
 figure img {

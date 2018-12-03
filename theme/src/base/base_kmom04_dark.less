@@ -5,13 +5,14 @@
 /**-----------------------------------------/
 * Variables & Mixins
 *-----------------------------------------*/
-@bgColourPage: #e6f2f3;
-@bgColourLinks: #165c87;
-@bgColorHtml: #353535;
-@altColour: white;
-@bgImage: linear-gradient(to bottom, #165c87 , black);
-//@fontFamilyBody: serif;
-
+@html: radial-gradient(#165c87 , black);;
+@page: radial-gradient(#165c87 , black);
+@headfoot: radial-gradient(#165c87 , black);
+@headfootText: white;
+@links: #cfcc1a;
+@logo: #cfcc1a;
+@weight: bold;
+@text: #ededed;
 /**
 * Show the typographic grid
 */
@@ -25,24 +26,30 @@
 *-----------------------------------------*/
 // Page
 .wrap-all {
-background-color: @bgColourPage;
+background-image: @page;
 }
-// Navbars
+// Navbars & links
 .rm-default,
 .rm-default ul {
-     background-image: @bgImage;
-     color: @altColour;
+     background-image: @headfoot;
+     color: @headfootText;
  }
 
-a {
-    color: @bgColourLinks;
+.region-breadcrumb li, a,
+.next-previous,
+.fas {
+    color: @links;
     text-decoration: none;
+}
+
+.site-logo-text a {
+    color: @logo;
 }
 // Footer
 .outer-wrap-footer,
 .inner-wrap-footer {
-    background-image: @bgImage;
-    color: white;
+    background-image: @page;
+    color: @headfootText;
 }
 
 /**-----------------------------------------/
@@ -51,12 +58,16 @@ a {
 html {
     overflow-x: hidden;
     overflow-y: scroll;
-    background-color: @bgColorHtml;
+    background-image: @html;
 }
 
 body {
     // Activate the grid base font
     #desinax-hgrid.font(@fontSizeBody);
+}
+
+p, ol {
+    color: @text;
 }
 
 img {
@@ -73,6 +84,11 @@ a:hover {
 
 table {
     margin: 0 auto;
+    color: @links;
+}
+
+fieldset {
+    color: @links;
 }
 
 // Activate grid and affect all typographic elements

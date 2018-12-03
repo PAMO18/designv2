@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04_colorful.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 
 /**
@@ -35,7 +35,7 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@import "base/base_kmom03.less";
+@import "base/base_kmom04_colorful.less";
 
 /**
  * Import the vertical grid.
@@ -51,15 +51,15 @@
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
-@import "layout/layout_kmom03.less";
-@import "layout/responsive_kmom03.less";
+@import "layout/layout_kmom04.less";
+@import "layout/responsive_kmom04.less";
 @import "layout/regions.less";     // To add style for ?regions
 
 /**
  * My own settings, not currently in their own module.
  */
 a {
-    font-family: "serif";
+    font-family: @fontFamilyMyriadPro;
 }
 
 ul {
@@ -67,3 +67,6 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+@fontFamilyBody:     @fontFamilyHelveticaNeue;
+@fontFamilyHeadings: @fontFamilyVerdana;

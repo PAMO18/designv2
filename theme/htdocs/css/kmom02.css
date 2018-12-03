@@ -4571,6 +4571,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Base style to affect HTML elements on a general scale.
  */
 html {
+  overflow-x: hidden;
   overflow-y: scroll;
   background-color: #353535;
 }

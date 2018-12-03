@@ -5,13 +5,12 @@
 /**-----------------------------------------/
 * Variables & Mixins
 *-----------------------------------------*/
-@bgColourPage: #e6f2f3;
-@bgColourLinks: #165c87;
-@bgColorHtml: #353535;
-@altColour: white;
-@bgImage: linear-gradient(to bottom, #165c87 , black);
-//@fontFamilyBody: serif;
-
+@html: #ededed;
+@page: #ededed;
+@headfoot: black;
+@headfootText: white;
+@links: black;
+@menu: #333333;
 /**
 * Show the typographic grid
 */
@@ -25,24 +24,27 @@
 *-----------------------------------------*/
 // Page
 .wrap-all {
-background-color: @bgColourPage;
+background-color: @page;
 }
 // Navbars
 .rm-default,
 .rm-default ul {
-     background-image: @bgImage;
-     color: @altColour;
+     background-color: @headfoot;
+     color: @headfootText;
+ }
+
+ .rm-mobile.rm-mobile {
+     background-color: @menu;
  }
 
 a {
-    color: @bgColourLinks;
-    text-decoration: none;
+    color: @links;
 }
 // Footer
 .outer-wrap-footer,
 .inner-wrap-footer {
-    background-image: @bgImage;
-    color: white;
+    background-color: @headfoot;
+    color: @headfootText;
 }
 
 /**-----------------------------------------/
@@ -51,7 +53,7 @@ a {
 html {
     overflow-x: hidden;
     overflow-y: scroll;
-    background-color: @bgColorHtml;
+    background-color: @html;
 }
 
 body {
@@ -68,7 +70,7 @@ figure img {
 }
 
 a:hover {
-    text-decoration: underline;
+    color: blue;
 }
 
 table {
