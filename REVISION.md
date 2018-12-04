@@ -51,3 +51,7 @@ v4.0.0 (2018-11-30)
 * Deafult style changed to: Dark
 * Report for analysis of website colour schemes
 * Report for kmom04
+
+v4.0.1 (2018-12-04)
+-------------------
+* Justerat text

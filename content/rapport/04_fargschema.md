@@ -123,6 +123,7 @@ Den typ av färgschema som används är ett complementary färgschema, där röd
 **`<p>`** = "Arial"
 
 Typsnitten som används på rubrikerna är "Creighton Pro", som enligt artikeln, https://www.kreativfont.com/creighton-pro, är en ”sans-serif” font och är skapat som ett bra val för små bokstäver samt inspirerat från några tysta karaktärer.  Alla paragrafer är ”Arial” som första val, ett säkert och populär font som är tydlig och fungerar bra till det mesta.  Rubrikerna är svarta men paragraferna är inte riktigt helt svart utan väldigt mörkt grå.
+
 Min bedömning är att Jula, likt ICA, har träffat rätt när det gäller färgschema och typsnitts val och motsvarar den profil webbsidan vill ha.  Med färgkodade kategorier och en röd tråd genom hela sida så är detta en trivsam, inspirerande och välorganiserad webbsida.  Likt Elgiganten så ligger fokus hela tiden på produkterna och annonser men navbaren är bättre här, man vet exakt vart man är på sidan.  Typsnitten är tydliga, lockande samt lättläst.
 
 Analys
