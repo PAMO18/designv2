@@ -30,6 +30,6 @@ views:
 Om
 =========================
 
-[FIGURE class="om-image" src=image/design.jpg?w=250 caption="Design"]
+[FIGURE class="om-image right w25" src=image/design.jpg?w=250 caption="Design"]
 
 Denna webbsida är en del av kursen Design v2 hos Blekinge Tekniska Högskola och finns för att testa olika styles och design tekniker.

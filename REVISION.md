@@ -55,3 +55,10 @@ v4.0.0 (2018-11-30)
 v4.0.1 (2018-12-04)
 -------------------
 * Justerat text
+
+v5.0.0 (2018-12-07)
+-------------------
+* Added blog
+* Added new report, page loading times
+* Added report for kmom05
+* Added Desinax Figure.less

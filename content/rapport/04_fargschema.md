@@ -27,7 +27,7 @@ Resultat
 
 <h3 style="text-align: center; border-bottom: none">ICA</h3>
 
-[FIGURE class="websites" src=image/ICA.png?w=550]
+[FIGURE class="websites center" src=image/ICA.png?w=550]
 
 På denna sida så sticker den röda färgen ut väldigt mycket, denna färgen är sidans röda tråd som följer med överallt man är.  Sidan är färgrik och trivsam där fokus ligger på artiklarnas bilder som är stora och snygga.  Den accentfärg som används, en sorts lila, finns på brödtexten och ikoner samt när man ”hover” över de olika valen i navbaren till vänster.  Detta ger en tydlig känsla av var jag ska klicka för att navigera runt.  Bakgrundsfärgen som används är ljus men ändå skiljer den sig mot den vita bakgrundsfärg som finns på navbaren samt alla artiklar.  Hade bakgrunden också varit vit så hade inte resten stuckit ut som den gör nu.
 
@@ -60,7 +60,7 @@ Jag känner att ICA verkligen har lyckats med sin webbsidas färgschema, typsnit
 
 <h3 style="text-align: center; border-bottom: none">Elgiganten</h3>
 
-[FIGURE class="websites" src=image/Elgiganten.png?w=550]
+[FIGURE class="websites center" src=image/Elgiganten.png?w=550]
 
 Denna sida är mindre färgrik men ändå attraktiv.  Vit är den överlägst dominant färg och finns som sidans bakgrundsfärg, header och navbar.  På navbaren samt många ikoner finns det en sorts grön accentfärg som sticker ut och på en del annonser så finns det en blå accentfärg.  Båda dessa färger är tagit från företagets logo.  Samtidigt så finns det en accentfärg till, en sorts gul, som är utnyttjad för att lägga fokus på priset man sparar på vissa produkter.  Med hjälp av den vita färgtema så sticker ut alla artiklar och annonser extra mycket, det blir en väldigt stor kontrast på sidan.  Sidans element är placerade ut i en grid format också och skapar en tydlig struktur och separation mellan det olika delar.
 
@@ -93,7 +93,7 @@ Jag tror att Elgigantens färgschema och typsnitt motsvarar den profil webbplats
 
 <h3 style="text-align: center; border-bottom: none">Jula</h3>
 
-[FIGURE class="websites" src=image/Jula.png?w=550]
+[FIGURE class="websites center" src=image/Jula.png?w=550]
 
 Jula har också en röd dominant färg genom hela sidan och färgen är företagets huvudfärg, precis som ICA.  Sidan är färgrik och upplägget är en blandning av Elgiganten och ICA.  Navbaren är till vänster, samma som det andra sidor, men är färgkodad för lättare navigering.  Bakgrundsfärgen är vit men denna gång är navbaren en ljusgrå färg som skiljer den åt från bakgrunden.  Varje avdelning har sin egen färgkod och bakgrundsfärgen när man klickar på en länk motsvarar sin avdelnings färgkod, smart.  Sidans header och footer är röd och sticker kraftigt ut från resten av sidan.  Det är samma här att man vet exakt vilken sidan man besöker utan att ens läsa texten.  Accentfärgarna som används är för det mesta nyanser av basfärgen, röd.  En sorts grön färg används också men bara för ett ändamål, för att lägga produkter i kundkorgen.  Sidans Element är placerade ut i en grid format och hela sidan känns väl strukturerad.
 

@@ -5265,7 +5265,7 @@ hr::after {
 /**
  * Layout for responsive style through media queries.
  */
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 975px) {
   .region-main {
     display: inline;
     float: left;

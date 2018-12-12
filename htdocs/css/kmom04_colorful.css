@@ -5270,7 +5270,7 @@ hr::after {
 /**
  * Layout for responsive style through media queries.
  */
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 975px) {
   .region-main {
     display: inline;
     float: left;
@@ -5385,4 +5385,8 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+.rm-default a {
+  font-size: 1.5em;
+  padding: 0.5em;
 }

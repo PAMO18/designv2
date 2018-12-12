@@ -13,7 +13,7 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/me.jpg?w=500" class="family" caption="Bild på mig och min familj, jag är i mitten:)"]
+[FIGURE src="image/me.jpg?w=500" class="family right w50" caption="Bild på mig och min familj, jag är i mitten:)"]
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 

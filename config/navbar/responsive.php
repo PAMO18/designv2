@@ -70,6 +70,35 @@ return [
                         "url" => "rapport/fargschema",
                         "title" => "Färgschema rapport för kmom04.",
                     ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Laddningstid rapport för kmom05.",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg från kursmomenten.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Inlägg 1",
+                        "url" => "blogg/mitt-forsta-inlagg",
+                        "title" => "Blogg för kmom05.",
+                    ],
+                    [
+                        "text" => "Inlägg 2",
+                        "url" => "blogg/mitt-andra-inlagg",
+                        "title" => "Blogg för kmom05.",
+                    ],
+                    [
+                        "text" => "Inlägg 3",
+                        "url" => "blogg/mitt-tredje-inlagg",
+                        "title" => "Blogg för kmom05.",
+                    ],
                 ],
             ],
         ],
