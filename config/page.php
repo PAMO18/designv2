@@ -19,7 +19,7 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom05.min.css",
+                "css/kmom06.min.css",
                 //"css/kmom01.css",
             ],
             "javascripts" => [
@@ -44,7 +44,7 @@ return [
             "template" => "anax/v2/header/site_logo_text",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "design",
+                "siteLogoText"  => "<span class='d'>D</span>e<span class='d'>s</span>i<span class='d'>g</span>n",
                 "siteLogoTextIcon" => "image/theme/logo_48x48.jpg",
                 "siteLogoTextIconAlt" => "Manchester Bee",
             ],

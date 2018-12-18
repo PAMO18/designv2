@@ -1,0 +1,171 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+/**-----------------------------------------/
+* Variables & Mixins
+*-----------------------------------------*/
+@html: #353535;
+@page: #e6f2f3;
+@headfoot: linear-gradient(to bottom, #165c87 , black);
+@headfootText: white;
+@links: #165c87;
+@weight: bold;
+/**
+* Show the typographic grid
+*/
+.hgrid .inner-wrap {
+ @gridImage: "../img/magic-number-@{magicNumber}.png";
+ #desinax-hgrid.showGrid(@gridImage);
+}
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 1100px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+/**-----------------------------------------/
+* Page style
+*-----------------------------------------*/
+// Page
+.wrap-all {
+    background-color: #e6f2f3;
+    background-image: url(../img/stripes.png);
+    background-repeat: repeat;
+}
+// Navbars
+.rm-default,
+.rm-default ul {
+     animation: pulsate 100s linear infinite;
+     color: @headfootText;
+ }
+
+a {
+    color: @links;
+    text-decoration: none;
+}
+// Footer
+.outer-wrap-footer,
+.inner-wrap-footer {
+    color: @headfootText;
+    animation: pulsate 100s linear infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        background-color: #165c87;
+    }
+
+    10% {
+        background-color: #7fdbff;
+    }
+
+    20% {
+        background-color: #39cccc;
+    }
+
+    30% {
+        background-color: #2ecc40;
+    }
+
+    40% {
+        background-color: #01ff70;
+    }
+
+    50% {
+        background-color: #ffdc00;
+    }
+
+    60% {
+        background-color: #ff851b;
+    }
+
+    70% {
+        background-color: #ff4136;
+    }
+
+    80% {
+        background-color: #f012be;
+    }
+
+    90% {
+        background-color: #b10dc9;
+    }
+
+    100% {
+        background-color: #0074d9;
+    }
+}
+
+/**-----------------------------------------/
+* Base
+*-----------------------------------------*/
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    animation: pulsate 100s linear infinite;
+}
+
+body {
+    // Activate the grid base font
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+img {
+    max-width: 100%;
+}
+
+figure img {
+    border-radius: 10px;
+    padding: 12px 12px 24px 12px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 12px 12px 6px #aaaaaa;
+}
+
+a:hover {
+    text-decoration: underline;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(8px, 0, 0);
+  }
+}
+
+table {
+    margin: 0 auto;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+/**-----------------------------------------/
+ * End of base
+ *-----------------------------------------*/

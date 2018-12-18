@@ -62,3 +62,10 @@ v5.0.0 (2018-12-07)
 * Added new report, page loading times
 * Added report for kmom05
 * Added Desinax Figure.less
+
+v6.0.0 (2018-12-17)
+-------------------
+* Added designprincip rapport, style designelement, style designprinciper
+* Added report for kmom06
+* Added LESS style designelement
+* Added LESS style designprinciper
