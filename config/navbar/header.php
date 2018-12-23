@@ -89,6 +89,16 @@ return [
                         "url" => "rapport/designprinciper",
                         "title" => "Tema Designprinciper rapport för kmom06.",
                     ],
+                    [
+                        "text" => "Webbplatsdesign",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Webbplatsdesign rapport för kmom10.",
+                    ],
+                    [
+                        "text" => "Design och webbplatser",
+                        "url" => "rapport/design-och-webbplatser",
+                        "title" => "Design och webbplatser rapport för kmom10.",
+                    ],
                 ],
             ],
         ],

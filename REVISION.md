@@ -69,3 +69,9 @@ v6.0.0 (2018-12-17)
 * Added report for kmom06
 * Added LESS style designelement
 * Added LESS style designprinciper
+
+v10.0.0 (2018-12-23)
+-------------------
+* Redovisning till kmom10
+* Rapport, kmom10 Uppdrag 1: Analys aktuell webbplatsdesign
+* Rapport, kmom10 Uppdrag 2: Analys valfri
